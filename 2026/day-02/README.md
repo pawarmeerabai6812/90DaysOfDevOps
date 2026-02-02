@@ -1,8 +1,16 @@
 # Day 02 – Linux Architecture, Processes, and systemd
 
-## Task
-Today’s goal is to **understand how Linux works under the hood**.
+Linux is a free, open-source operating system that powers everything from laptops to servers, clouds, and supercomputers 🐧
+Simple definition
 
+## what is Kernal
+- The kernel is the program that:
+- talks to the hardware (CPU, RAM, disk, network)
+- manages system resources
+- lets applications safely use the hardware
+
+
+## user space
 You will create a short note that explains:
 - The core components of Linux (kernel, user space, init/systemd)
 - How processes are created and managed
