@@ -1,7 +1,7 @@
 # basic Commands of Devops
 
 - pwd- it show the present working directory
-- ls: it show the present working directory
+- ls: Displays the files and folders inside the current directory
 - cd : it used to change the directory
 - clear: it used to clear screen
 - whoami:it show the current user login
