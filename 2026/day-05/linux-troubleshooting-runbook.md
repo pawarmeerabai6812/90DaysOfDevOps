@@ -131,21 +131,30 @@ Observation: Nginx is serving requests successfully.
 ![Top Command Output](docker.png)
 
 ✅ Docker starts successfully.
+
 ✅ Docker stops gracefully.
+
 ✅ No fatal errors are present.
+
 ✅ The nftables messages are informational in this context and are not preventing Docker from running.
 
 
 ## Quick review##
 - service running normally with low CPU usage
+
 - Disk and logs size is healthy
+
 - Network port  open and serving connections.
+
 - No errors in logs.
 
 ## If this worsens##
 Check logs again
+
 Check CPU usage/Disk usage
+
 Restart service
+
 Check if port is used by other service
 
 
