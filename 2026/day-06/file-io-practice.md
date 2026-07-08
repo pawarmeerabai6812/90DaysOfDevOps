@@ -8,7 +8,8 @@ Today's focus is on mastering basic file operations that every DevOps engineer u
 ```bash
 touch day6.txt
 ```
-What it did: Creates a new empty file called notes.txt. If the file already exists, it just updates the timestamp - it did NOT delete the content.
+What it did: 
+- Creates a new empty file called day6.txt. If the file already exists, it just updates the timestamp - it did NOT delete the content.
 
 ## 2. Write to a File (Overwrite)##
 
@@ -17,8 +18,8 @@ echo "Today is Day 6/90 of my DevOps journey" > day6.txt
 ```
 
 it used to write text into a file. If the file doesn't exist, it creates it. If the file already exists, it overwrites its contents.
-echo
-echo is a Linux command used to display or print text.
+echo:
+- echo is a Linux command used to display or print text.
 
 ##  3. Append to a File ##
 
@@ -27,9 +28,9 @@ echo "Linux append the file" >> day6.txt
 ```
 Explanation:
 
->> appends content to the file
+- appends content to the file
 
-Existing content is saved
+- Existing content is saved
 
 ##  4. Write and Display Output Using tee ##
 
@@ -98,6 +99,7 @@ grep "Linux" day6.txt
 
 ```
 Explanation:
+
 - Searches for the word Linux in day6.txt and displays the matching line(s).
 
 
