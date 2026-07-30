@@ -149,7 +149,7 @@ Verified the updated permissions by executing scripts and testing file access.
 
 ## Output
 
-![Task 5](./screenshots/task5.png)
+![Task 5](task5.png)
 
 ---
 
