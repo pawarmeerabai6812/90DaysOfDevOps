@@ -127,7 +127,7 @@ lvextend -L +200M /dev/devops-vg/app-data
 resize2fs /dev/devops-vg/app-data
 
 df -h /mnt/app-data
-```
+```                     
 
 ## Description
 
