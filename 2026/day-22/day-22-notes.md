@@ -8,7 +8,7 @@
 3. Verify your configuration
 
 ![git](config.png)
-# ![Top Command Output](top.png)
+
 
 
 ### Task 2: Create Your Git Project
