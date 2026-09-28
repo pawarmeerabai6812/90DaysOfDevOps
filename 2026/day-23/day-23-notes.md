@@ -51,7 +51,7 @@ Several people can build different features or fixes at the same time without st
 - `git switch <branch>`   :only switches branches.  
 - `git checkout <branch>` :switches branches and can also restore files.
 
-    ![images](Gitswitch.png)
+    ![images](gitswitch.png)
 
 6. Make a commit on `feature-1` that does **not** exist on `main`
 - `git commit -m "Add git branch command section to git-commands.md"`
