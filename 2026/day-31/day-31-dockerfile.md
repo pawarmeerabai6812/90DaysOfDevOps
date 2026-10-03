@@ -10,11 +10,11 @@
    - Sets a default command to print `"Hello from my custom image!"`
 3. Build the image and tag it `my-ubuntu:v1`
 
-    ![image](images/task11.png)
+    ![image](Images/task11.png)
 
 4. Run a container from your image
 
-    ![image](images/cantainer.png)
+    ![image](Images/cantainer.png)
 
 **Verify:** The message prints on `docker run`
 
@@ -42,9 +42,9 @@ Documents that container uses port 5000.
 - `CMD ["python","app.py"]`
 Runs Python app when container starts.
 
-![image](images/Task2.1.png)
-![image](images/Task2.2.png)
-![image](images/tas23.png)
+![image](Images/Task2.1.png)
+![image](Images/Task2.2.png)
+![image](Images/tas23.png)
 
 
 
@@ -53,8 +53,8 @@ Runs Python app when container starts.
 ### Task 3: CMD vs ENTRYPOINT
 1. Create an image with `CMD ["echo", "hello"]` — run it, then run it with a custom command. What happens?
 
-    ![image](images/cmdtest.png)
-    ![image](images/cmdtest2.png)
+    ![image](Images/cmdtest.png)
+    ![image](Images/cmdtest2.png)
 
 * * **Run without arguments:**
   The container runs the default command `echo python` and outputs:
@@ -66,7 +66,7 @@ Runs Python app when container starts.
 * **Run with a custom command:**
   When you run the container with a custom command (e.g., `echo "Hello world"`), the custom command **completely overrides** the `CMD`, so the output is:
 
-![image](images/cmd3.png)
+![image](Images/cmd3.png)
 
   ```
  Hello world
@@ -76,8 +76,8 @@ Runs Python app when container starts.
 
 2. Create an image with `ENTRYPOINT ["echo"]` — run it, then run it with additional arguments. What happens?
 
-    ![image](images/entrypoint1.png)
-    ![image](images/entrypoint2.png)
+    ![image](Images/entrypoint1.png)
+    ![image](Images/entrypoint2.png)
 
 * **Run without arguments:**
   The container runs `echo` with no arguments,resulting in a blank line (no output).
@@ -105,8 +105,8 @@ Runs Python app when container starts.
 3. Build and tag it `my-website:v1`
 4. Run it with port mapping and access it in your browser
 
-    ![image](images/task4.png)
-    ![image](images/task41.png)
+    ![image](Images/task4.png)
+    ![image](Images/task41.png)
 
 ---
 
@@ -115,7 +115,7 @@ Runs Python app when container starts.
 2. Add entries for: `node_modules`, `.git`, `*.md`, `.env`
 3. Build the image — verify that ignored files are not included
 
-    ![image](images/task5.png)
+    ![image](Images/task5.png)
 
 
 There should be no test.md, .env, .git, or node_modules listed
