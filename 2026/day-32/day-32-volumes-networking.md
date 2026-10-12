@@ -59,7 +59,7 @@
 2. Run an Nginx container and **bind mount** your folder to the Nginx web directory
 3. Access the page in your browser
 
-    ![image](images/tsk3.23.png)
+    ![image](images/task3.23.png)
 
 4. Edit the `index.html` on your host — refresh the browser
 
